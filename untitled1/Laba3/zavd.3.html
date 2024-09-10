@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h1 align="center"><b>Анкета</b></h1></p>
+<form>
+ <fieldset >
+  <legend>Особисті дані:</legend>
+  <label for="name" ><h4>Ім'я</h4></label>
+  <p> <label><input id="name"  name="name" type="text" tabindex="1"  placeholder="Введіть ім'я"></label></p>
+  <label for="Lname" ><h4>Прізвище</h4></label>
+  <p><label><input id="Lname" type="text"  name="lastName" placeholder="Введіть прізвище" ></label></p>
+  <label for="HB"><h4>Дата народження</h4></label>
+ <p><label> <input type="date" id="HB" name="HB" ></label></p>
+  <label for="phNumber"><h4>Номер телефону</h4></label>
+  <input ID="phNumber" type="tel"placeholder="+38-XXX-XXX-XXXX" name="phNumber" pattern="\+38-[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+  <label><h4>Стать</h4></label>
+  <p><label for="man" >Чоловік<input id="man" value="man" name="gender" type="radio" > </label></p>
+  <p><label for="girl">Жінка<input id="girl"  value="girl" name="gender" type="radio"> </label></p>
+  <p><label for="other">Інше<input id="other" value="other" name="gender"type="radio"> </label></p>
+  <p> <label for="password"><b>Пароль:</b></label></p>
+  <input type="password" id="password" name="password" placeholder="Введіть пароль" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required>
+  <p><label for="email"><b>Email</b></label></p>
+  <p><input type="email" id="email"  name="email" placeholder="Введіть email" autocomplete="OFF"></p>
+ </fieldset>
+<fieldset>
+ <legend>Рівень освіти</legend>
+ <p><label for="school">Школа<input id="school" type="radio" value="school" name="study" checked></label></p>
+ <p><label for="college">Коледж<input id="college" type="radio" value="college" name="study"></label></p>
+ <p><label for="bachelor">Бакалавр<input id="bachelor" type="radio" value="bachelor" name="study"></label></p>
+ <p><label for="master">Магістр<input id="master" type="radio" value="master" name="study"></label></p>
+</fieldset>
+ <fieldset>
+  <legend>Ваші інтереси</legend>
+<p> <label for="sport">Спорт<input id="sport" value="sport" name="interests" type="checkbox"></label></p>
+  <p><label for="music">Музика<input id="music" value="music" name="interests"type="checkbox"></label></p>
+  <p><label for="travel">Подорожі<input id="travel" value="travel" name="interests"type="checkbox"></label></p>
+  <p><label for="tech">Технології<input id="tech" value="tech" name="interests"type="checkbox"></label></p>
+ </fieldset>
+ <fieldset>
+  <label for="education"></label>
+  <legend >Місце знаходження</legend>
+  <select id="education" name="city" >
+   <option value="zakarpattya">Закарпаття</option>
+   <option value="lviv">Львів</option>
+   <option value="chernivtsi" selected>Чернівці</option>
+   <option value="khmelnitskiy">Хмельницький</option>
+   <option value="odesa">Одеса</option>
+  </select>
+ </fieldset>
+ <fieldset>
+  <legend>Мови програмування які ви знаєте</legend>
+  <label for="language"></label>
+  <select multiple id="language" name="language">
+   <option value="cpp">C++</option>
+   <option value="java">Java</option>
+   <option value="python">Python</option>
+   <option value="javascript" >JavaScript</option>
+   <option value="ruby">Ruby</option>
+   <option value="go">Go</option>
+  </select>
+ </fieldset>
+ <fieldset>
+  <legend>Оберіть ваші улюблені предмети:</legend>
+  <label for="subjects"></label>
+  <select id="subjects" name="subjects" >
+   <optgroup label="Природничі науки">
+    <option value="biology">Біологія</option>
+    <option value="chemistry">Хімія</option>
+    <option value="physics">Фізика</option>
+   </optgroup>
+   <optgroup label="Гуманітарні науки">
+    <option value="history">Історія</option>
+    <option value="philosophy">Філософія</option>
+    <option value="literature">Література</option>
+   </optgroup>
+   <optgroup label="Мови">
+    <option value="english">Англійська</option>
+    <option value="french">Французька</option>
+    <option value="spanish">Іспанська</option>
+   </optgroup>
+   <optgroup label="Технічні науки">
+    <option value="mathematics">Математика</option>
+    <option value="informatics">Інформатика</option>
+    <option value="engineering">Інженерія</option>
+   </optgroup>
+  </select>
+ </fieldset>
+ <fieldset>
+  <legend>Ким ви хочете бути?</legend>
+  <label for="job"></label>
+<input list="job" name="job" placeholder="Почніть вводити">
+  <datalist id="job" >
+   <option value="Програміст">
+   <option value="Лікар">
+   <option value="Вчитель">
+   <option value="Механік">
+   <option value="Таксістом">
+  </datalist>
+ </fieldset>
+ <p><label><b>Якщо в списку немає тієї професії, напиши ії нижче </b></label></p>
+  <p><textarea placeholder="Напишіть тут"></textarea></p>
+ </fieldset>
+ <fieldset >
+  <legend>Надішліть аудіофайл</legend>
+  <label for="audioFiles"></label>
+  <input id="audioFiles" name="audioFiles" type="file" accept="audio/*" multiple>
+ </fieldset>
+ <fieldset>
+  <legend>Дії</legend>
+  <button type="submit">Відправити</button>
+  <button type="reset">Скинути</button>
+ </fieldset>
+</form>
+</body>
+</html>
