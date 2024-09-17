@@ -1,0 +1,38 @@
+
+.centered-content {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.text{
+font-weight: bold;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+
+
+.highlight {
+    background-color: yellow;
+}
+
+
+.divider {
+    border: none;
+    height: 5px;
+    background-color: green;
+    width: 40%;
+    margin: 20px auto;
+}
+.line{
+    text-decoration:line-through;
+}
+.oblique{
+    font-style: oblique;
+}
+/* Оформлення підкресленого тексту */
+.u {
+    text-decoration: underline;
+}

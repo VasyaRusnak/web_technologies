@@ -1,0 +1,35 @@
+
+*{
+    font-family:Arial, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+p{
+    color: darkgreen;
+text-align: center;
+}
+div{
+    text-align: justify;
+}
+.red{
+    color: red;
+}
+.no_wrap{
+    white-space: nowrap;
+}
+#styled{
+    font-style: italic;
+    font-weight: bold;
+}
+.shadow{
+    text-shadow: 5px 5px 3px #000;
+}
+.text_transform{
+    text-transform: uppercase;
+     text-indent: 50px;
+    text-decoration:line-through;
+}
+.spacing{
+    letter-spacing: 30px;
+    word-spacing: 50px;
+}
