@@ -1,0 +1,41 @@
+h1 {
+
+    text-align: center;
+    color: saddlebrown;
+    padding: 40px;
+    font-style: oblique;
+    font-size:50px;
+}
+fieldset{
+    background-color: peachpuff;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+*{
+    background-color: antiquewhite;
+
+}
+
+.color{
+    background-color: peachpuff;
+}
+h4{
+    color: saddlebrown;
+}
+legend{
+    background-color:burlywood  ;
+    border-radius: 5px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.text{
+    background-color:burlywood  ;
+    border-radius: 5px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.button{
+    color: saddlebrown;
+}

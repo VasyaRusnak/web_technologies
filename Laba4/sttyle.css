@@ -4,8 +4,9 @@
     margin: 0 auto;
     width: 80%;
 }
-.text{
-font-weight: bold;
+
+.text {
+    font-weight: bold;
 }
 
 .title {
@@ -18,7 +19,6 @@ font-weight: bold;
     background-color: yellow;
 }
 
-
 .divider {
     border: none;
     height: 5px;
@@ -26,13 +26,15 @@ font-weight: bold;
     width: 40%;
     margin: 20px auto;
 }
-.line{
-    text-decoration:line-through;
+
+.line {
+    text-decoration: line-through;
 }
-.oblique{
+
+.oblique {
     font-style: oblique;
 }
-/* Оформлення підкресленого тексту */
+
 .u {
     text-decoration: underline;
 }
