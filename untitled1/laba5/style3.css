@@ -1,41 +1,116 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
-
     text-align: center;
-    color: saddlebrown;
-    padding: 40px;
-    font-style: oblique;
-    font-size:50px;
+    color: #333;
 }
-fieldset{
-    background-color: peachpuff;
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 70px;
-    margin-left: 100px;
-    margin-right: 100px;
+    font-size: 1em;
 }
-*{
-    background-color: antiquewhite;
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 49%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #6c757d;
+}
+
+button[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+.bg-color {
+    color: #333;
+}
+
+p {
+    margin: 0;
+}
+
+select {
+    padding: 8px;
+}
+
+input[type="file"] {
+    padding: 10px;
+}
+
+
+fieldset:last-child {
+    display: flex;
 
 }
 
-.color{
-    background-color: peachpuff;
-}
-h4{
-    color: saddlebrown;
-}
-legend{
-    background-color:burlywood  ;
-    border-radius: 5px;
-    font-style: oblique;
-    font-weight: bold;
-}
-.text{
-    background-color:burlywood  ;
-    border-radius: 5px;
-    font-style: oblique;
-    font-weight: bold;
-}
-.button{
-    color: saddlebrown;
-}
+    fieldset:last-child {
+        flex-direction: column;
+    }
+

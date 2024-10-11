@@ -1,0 +1,76 @@
+img{
+    width: 40px;
+}
+.main{
+    background: gray;
+    height: 600px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+.block-1{
+background-color: darkgrey;
+    height: 100px;
+    width: 40%;
+    position: absolute;
+    padding-top: 110px;
+    top: 350px;
+    left: 400px;
+    box-shadow: 10px 10px 0 dimgray;
+}
+.block-2{
+    background-color: black;
+    height: 110px;
+    width: 400px;
+    position: absolute;
+    font-size: 100px;
+    color: gray;
+    padding-top: 330px;
+    padding-left: 20px;
+    top: 20px;
+    left: 150px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+    font-style: inherit;
+    font-weight: bold;
+}
+.color-day{
+    color: dimgrey;
+    padding-left: 20px;
+    word-spacing: 30px;
+}
+.color-temp{
+font-size: 20px;
+    word-spacing: 30px;
+    padding-left: 20px;
+}
+.arrow-right{
+    position: absolute;
+    background-color: lightgray;
+    height: 70px;
+    width: 70px;
+    top: 200px;
+    left: 150px;
+    z-index: 1;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.arrow-left{
+    position: absolute;
+    background-color: lightgray;
+    height: 70px;
+    width: 70px;
+    top: 200px;
+    left:90px;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.cloud img{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    top: 120px;
+    left: 250px;
+
+}

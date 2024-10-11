@@ -1,0 +1,30 @@
+.wrapper{
+    width: 60%;
+    margin-left: 250px;
+    border: red solid 5px ;
+    height: 700px;
+    position: relative;
+}
+.block-1{
+   background-color: blue;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    width: 40%;
+}
+.block-2{
+    background-color: orange;
+    left: 60px;
+    top: 40px;
+    position: absolute;
+    width: 40%;
+
+
+}
+.block-3{
+    background-color: yellow;
+    position: absolute;
+    top:240px;
+   right: 60px;
+    left: 60px;
+}

@@ -13,7 +13,7 @@ ul{
     list-style-type: none;
     padding-left: 0;
 }
-.ul1{
+.list{
     background-color: rgb(103,158,128);
     padding-left: 50px;
     padding-right: 20px;
@@ -21,7 +21,7 @@ ul{
     margin-left: 10px;
     margin-right: 10px;
 }
-.ul2{
+.item{
     font-size: 18px;
     font-style: italic;
     background-color: rgb(153,180,102);
@@ -32,56 +32,56 @@ span{
     padding: 10px 20px 10px 20px;
     display: inline-block;
 }
-.span1{
+.highlighted-text{
     font-size: 20px;
     font-weight: 700;
     background-color: rgb(199,124,106);
     margin-bottom: 10px;
 }
-.span2{
+.accent-background{
     background-color:rgb(218,106,32);
 }
-.add{
+.add-mark{
     background-image: url("ad_units.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.ticket{
+.ticket-mark{
     background-image: url("airplane_ticket.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.car{
+.car-mark{
     background-image: url("car_rental.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.casino{
+.casino-mark{
     background-image: url("casino.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.festival{
+.festival-mark{
     background-image: url("festival.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.hotel{
+.hotel-mark{
     background-image: url("hotel.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.bar{
+.bar-mark{
     background-image: url("local_bar.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.museum{
+.museum-mark{
     background-image: url("museum.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;
 }
-.rule{
+.rule-mark{
     background-image: url("rule.png");
     background-repeat: no-repeat;
     background-size: 40px 40px;

@@ -1,0 +1,51 @@
+.wrapper{
+    position: relative;
+    border: black solid 5px;
+    width: 60%;
+    height: 700px;
+    margin: auto;
+
+
+}
+.block-1{
+    position: absolute;
+    background-color: red;
+    width: 10%;
+    height: 100px;
+    left: 20%;
+top:200px;
+    align-content: center;
+    text-align: center;
+    transition:  all 20s ease;
+
+}
+.block-2{
+    position: absolute;
+    background-color: blue;
+    width: 300px;
+    height: 200px;
+    top: 200px;
+    right: 20%;
+    text-align: center;
+    visibility: hidden;
+    transition: visibility 1s ;
+
+}
+.block-3{
+    position: absolute;
+    background-color: orange;
+    right: 280px;
+    width: 100px;
+    top: 300px;
+  visibility: hidden;
+
+
+}
+.block-1:hover+.block-2{
+    visibility: visible;
+}
+
+.block-2:hover+.block-3{
+    visibility: visible;
+
+}
